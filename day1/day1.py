@@ -19,6 +19,7 @@ def solve_problem (verbose=False):
             print ("Value error on line %d: '%s'" % (i, line.strip ()))
             sys.exit (1)
         i += 1
+    f.close ()
     print (result)
 
 def main():

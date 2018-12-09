@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""This program is a solution to https://adventofcode.com/2018/day/1"""
+"""This program is a solution to part 1 of https://adventofcode.com/2018/day/1"""
 
 import sys
 import argparse
@@ -23,7 +23,7 @@ def solve_problem (verbose=False):
     print (result)
 
 def main():
-    parser = argparse.ArgumentParser (description='This program solves the Advent\
+    parser = argparse.ArgumentParser (description='This program solves part 1 of the Advent\
                                       of code problem https://adventofcode.com/2018/day/1')
     parser.add_argument ('-v', '--verbose', action='store_true', default=False,
                          help="print info about what's going on [False]")
